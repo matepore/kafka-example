@@ -1,10 +1,10 @@
-package matepore.kafka;
+package matepore.kafka.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class ProducerApplicationTests {
 
 	@Test
 	void contextLoads() {
