@@ -15,6 +15,7 @@ public class KafkaTopicConfig {
     @Bean
     public NewTopic generateTopic() {
 
+        // Define topic configurations
         Map<String, String> configs = new HashMap<>();
         configs.put(TopicConfig.CLEANUP_POLICY_CONFIG, TopicConfig.CLEANUP_POLICY_DELETE); // Set cleanup policy to delete
         configs.put(TopicConfig.RETENTION_MS_CONFIG, "86400000"); // Set retention to 1 day (in milliseconds)
